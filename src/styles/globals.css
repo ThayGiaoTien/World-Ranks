@@ -12,6 +12,15 @@
   --box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
 }
 
+[data-theme="dark"]{
+  --text-color: white;
+  --text-secondary: pink;
+  --primary-color: #21b6b7;
+
+  --background-color: #252329;
+  --background-color-dark: #3c3931;
+  --background-color-light: #120f13; 
+}
 html,
 body {
   padding: 0;

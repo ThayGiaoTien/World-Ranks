@@ -14,11 +14,14 @@
     text-align: center;
     font-size: 27px;
     margin-bottom: 0;
+    color: var(--text-secondary);
 }
 .overview_region{
     text-align: center;
     font-size: 19px;
     font-weight: 300;
+    color: var(--text-secondary);
+
 }
 .overview_number{
     display:grid;
@@ -48,6 +51,7 @@
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 24px;
+    color: var(--text-secondary);
 }
 .details_panel_row{
     display: flex;
@@ -57,11 +61,13 @@
 }
 .details_panel_label{
     text-align: left;
+    
     color: var(--text-secondary);
-
 }
 .details_panel_value{
     text-align: right;
+    color: var(--primary-color);
+    
 
 }
 .details_panel_borders{
@@ -89,9 +95,10 @@
 }
 .details_panel_borders_country_name{
     margin-bottom: 3px;
+    color: var(--text-secondary);
+
     
 }
-
 @media screen and (min-width: 720px) {
     .container{
         display: grid;

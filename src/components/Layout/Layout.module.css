@@ -20,4 +20,16 @@
 
   
 }
+.themeSwitcher{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: var(--text-secondary);
+    align-items: center;
+    margin-left: 6px
+
+
+}
 

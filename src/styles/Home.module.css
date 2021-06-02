@@ -1,24 +1,26 @@
 .counts {
     margin: 12px 0;
-    color: var(--text-color-secondary);
+    color: var(--text-secondary);
   }
   
-  .inputContainer {
+.inputContainer {
     margin-bottom: 40px;
+    background-color: var(--background-color-light);
+    border-radius: 18px;
+    padding: 18px;
+}
+
+  
+@media screen and (min-width: 720px){
+  .inputContainer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
-  
-  @media screen and (min-width: 720px) {
-    .inputContainer {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .counts {
-      flex: 1;
-    }
-  
-    .input {
-      flex: 2;
-    }
+  .counts{
+    flex:2;
   }
-  
+  .input{
+    flex:4;
+  }
+}
